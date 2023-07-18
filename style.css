@@ -252,6 +252,7 @@ background: #ffffff;
 
   }
   .play-game p{
+    margin-left: 50px;
 
     font-size: calc(1vw + .5rem);
   }
@@ -325,12 +326,14 @@ background: #ffffff;
             margin-top: -200px;
           }
           .play-game h1, .play-game p{
+            margin-left:2px;
             text-align: center;
 
           }
           .play-game p{
             margin: auto;
-            width:100%
+            width:100%;
+            margin-left: 10px;
           }
           .icon-container{
             grid-template-columns: repeat(3,1fr);
