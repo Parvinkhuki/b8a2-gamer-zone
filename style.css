@@ -120,12 +120,39 @@ margin-top: 20px;
     font-weight: 500;
 
 }
+/* play gamee  */
+.play-game{
+    display: flex;
+    margin: 200px 150px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.imgs2{
+ margin-left: 550px;
+ margin-top: -250px;
+}
+.play-game h1{
+    font-size:2.5rem;
+    font-weight: 700;
+    color: #0B0223;
+    margin-bottom: 40px;
+    margin-left: 30px;
+}
+.play-game p{
+    color: #534C64;
+    font-size: 1.15rem;
+    font-weight: 400;
+    width: 70%;
+    margin-left: 30px;
+}
+    
 
 
 /* small device  */
     @media screen and (max-width:576px) {
 
-        .nav-container,.nav-container ul,.card-container{
+        .nav-container,.nav-container ul,.card-container, .play-game{
             flex-direction: column;
             gap: 100px;
             align-items: center;
@@ -134,7 +161,7 @@ margin-top: 20px;
         .nav-container ul{
             gap:30px;
         }
-      .banner-container{
+      .banner-container,.play-game{
         flex-direction: column-reverse;
         background-image: none;
       }
@@ -179,6 +206,23 @@ margin-top: 20px;
 .online-game p{
     font-size: calc(1vw + .5rem);
 }
+/* play game  */
+.imgs1{
+    width:300px;
+  }
+  .imgs2{
+    width:40%;
+    margin-left: 200px;
+    margin-top: -100px;
+  }
+  .play-game h1, .play-game p{
+    text-align: center;
+
+  }
+  .play-game p{
+    margin: auto;
+    width:100%
+  }
 }
 
        
@@ -187,7 +231,7 @@ margin-top: 20px;
     /* medium device  */
 
     @media (min-width:760px) and (max-width:912px){
-        .nav-container,.card-container{
+        .nav-container,.card-container,.play-game{
             flex-direction: column;
             gap:70px;
     
@@ -211,5 +255,23 @@ margin-top: 20px;
             text-align: center;
             margin: auto;
           }
+          .imgs1{
+            width:100%;
+          }
+          .imgs2{
+            width:40%;
+            margin-left: 400px;
+            margin-top: -200px;
+          }
+          .play-game h1, .play-game p{
+            text-align: center;
+
+          }
+          .play-game p{
+            margin: auto;
+            width:100%
+          }
+
+      
         
     }
