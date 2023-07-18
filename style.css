@@ -177,7 +177,7 @@ margin-top: 20px;
     font-size: calc(1vw + 1.25rem);
 }
 .online-game p{
-    font-size: calc(1vw + .50rem);
+    font-size: calc(1vw + .5rem);
 }
 }
 
@@ -187,9 +187,9 @@ margin-top: 20px;
     /* medium device  */
 
     @media (min-width:760px) and (max-width:912px){
-        .nav-container{
+        .nav-container,.card-container{
             flex-direction: column;
-            gap:50px;
+            gap:70px;
     
         }
         .banner-container{
@@ -206,5 +206,10 @@ margin-top: 20px;
         .banner{
             margin: 70px 200px;
           }  
+          .card{
+            margin-top: 30px;
+            text-align: center;
+            margin: auto;
+          }
         
     }
