@@ -246,6 +246,7 @@ margin:50px 200px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 30px;
   
     }
 
@@ -262,7 +263,8 @@ margin:50px 200px;
             align-items: center;
         }
         .play-game{
-            flex-direction: column;}
+            flex-direction: column;
+        }
         
         .nav-container ul{
             gap:30px;
@@ -358,10 +360,6 @@ background: #ffffff;
     height: 30px;
     padding: 2px;
     border-radius: 20px;
-    background: #ffffff;
-    border:2px solid #F948B2;
-    color:#F948B2;
-
     }
     .footer{
         text-align: center;
@@ -493,10 +491,7 @@ background: #ffffff;
             height: 30px;
             padding: 2px;
             border-radius: 20px;
-            background: #ffffff;
-            border:2px solid #F948B2;
-            color:#F948B2;}
-        
+        }
 
       .footer{
         width: 100%;
@@ -544,11 +539,8 @@ background: #ffffff;
     padding-bottom: 20px;
  
     }
-    .footer h1{
-        color:#ffffff;
-    }
+    
     .small1{
-        
         font-size: .70rem;
         font-weight: 500;
        margin-top: 30px;
