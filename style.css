@@ -107,7 +107,7 @@ margin-top: 20px;
 .card-container{
     display: flex;
     justify-content: space-around;
-    margin: 40px 200px;
+    margin: 40px 150px;
 }
    .card{
     width: 342px;
@@ -221,6 +221,7 @@ background: #ffffff;
     grid-template-columns: repeat(5,1fr);
     row-gap: 30px;
     margin: 100px 100px 300px 100px;
+    text-align: center;
 }
     
 /* footer */
