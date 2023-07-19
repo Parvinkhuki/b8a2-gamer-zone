@@ -111,7 +111,7 @@ margin-top: 20px;
 }
    .card{
     width: 342px;
-    height500;
+    height:500;
     border-radius: 16px;
    }
 .card p{
@@ -120,9 +120,7 @@ margin-top: 20px;
     font-weight: 500;
 
 }
-.card:hover{
-color: red;
-}
+
 /* play gamee  */
 .play-game{
     display: flex;
