@@ -107,7 +107,7 @@ margin-top: 20px;
 .card-container{
     display: flex;
     justify-content: space-around;
-    margin: 40px 150px;
+    margin: 40px 200px;
 }
    .card{
     width: 342px;
@@ -120,6 +120,50 @@ margin-top: 20px;
     font-weight: 500;
 
 }
+.image-container{
+    position: relative;
+}
+   .image{
+    opacity: 1;
+  
+  transition: .5s ease;
+  
+   }
+
+   .videoPlay {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  
+  .image-container:hover .image {
+    opacity: 0.5;
+  }
+  
+  .image-container:hover .videoPlay{
+    opacity: 1;
+  }
+  
+  .text {
+    
+    
+    color: #F948B2;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 16px 32px;
+    margin-top: 20px;
+  }
+  .videoicon{
+    color:white;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  
 
 /* play gamee  */
 .play-game{
