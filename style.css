@@ -175,7 +175,7 @@ background: #ffffff;
     display: grid;
     grid-template-columns: repeat(5,1fr);
     row-gap: 30px;
-    margin: 20px 100px;
+    margin: 50px 100px;
 }
     
 /* footer */
@@ -235,7 +235,8 @@ margin:30px 500px;
 margin:50px 200px;
 }
 .footer h1{
-    color:#ffffff
+    color:#ffffff;
+  
 }
 .small1{
     
@@ -419,6 +420,7 @@ background: #ffffff;
     
         }
     }
+    
     
        
         
